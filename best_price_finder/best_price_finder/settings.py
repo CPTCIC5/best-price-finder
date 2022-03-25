@@ -118,6 +118,9 @@ import os
 TIME_ZONE='Asia/Kolkata'
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static')
+]
 
 MEDIA_URL='/Data/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'Data')
